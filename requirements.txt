@@ -1,0 +1,8 @@
+transformers
+accelerate
+datasets
+evaluate
+tqdm
+einops
+sentencepiece
+protobuf==3.19.6
