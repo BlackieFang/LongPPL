@@ -2,7 +2,7 @@
 
 
 ## Requirements
-Python 3.10.14 + Pytorch 2.3.1 + Transformers 4.45.2 (4.37.0 for eabf)
+Python 3.10 + Pytorch 2.3 + Transformers 4.45
 
 ```
 pip install -r requirements.txt
@@ -22,7 +22,8 @@ To conduct long-context finetuning with LongCE, run `accelerate config` and enab
 cd finetune
 sh train.sh
 ```
-The training data can be downloaded from [PG19](https://huggingface.co/datasets/emozilla/pg19) and [Pile_arxiv](https://huggingface.co/datasets/suolyer/pile_arxiv).
+The training data can be downloaded from [PG19](https://huggingface.co/datasets/emozilla/pg19) and [Pile-arxiv](https://huggingface.co/datasets/suolyer/pile_arxiv).
+To run models with eabf, please downgrade the version of `transformers` to `4.37.0`
 
 ## Evaluation on Long-context Benchmark
 In the paper, we evaluate models on [LongBench](https://github.com/THUDM/LongBench), [LongEval](https://github.com/DachengLi1/LongChat) and [RULER](https://github.com/nvtransfer/RULER). Please refer to the respective code repositories.
