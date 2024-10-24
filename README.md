@@ -23,7 +23,7 @@ cd finetune
 sh train.sh
 ```
 The training data can be downloaded from [PG19](https://huggingface.co/datasets/emozilla/pg19) and [Pile-arxiv](https://huggingface.co/datasets/suolyer/pile_arxiv).
-To run models with eabf, please downgrade the version of `transformers` to `4.37.0`
+To run models with eabf, please downgrade the version of `transformers` to `4.37.0`.
 
 ## Evaluation on Long-context Benchmark
 In the paper, we evaluate models on [LongBench](https://github.com/THUDM/LongBench), [LongEval](https://github.com/DachengLi1/LongChat) and [RULER](https://github.com/nvtransfer/RULER). Please refer to the respective code repositories.
